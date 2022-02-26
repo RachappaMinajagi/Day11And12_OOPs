@@ -6,9 +6,12 @@ public class BankAccount {
 	static Scanner scanner = new Scanner(System.in);
 
 	// These are different for each account
+	
 	private double balance;
 	private int accountNumber;
+	
 	// This is shared by all accounts, so it's static
+	
 	private static int lastAccountNumber = 0;
 
 	// This is a constructor: no return type (void, boolean etc) and has the same
